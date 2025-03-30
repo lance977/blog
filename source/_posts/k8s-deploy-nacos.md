@@ -167,44 +167,6 @@ spec:
     namespace: default
     name: nacos-data-nacos-cluster-2
 ```
-```yaml
-# nacos-pvc.yaml
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: nacos-pvc-0
-spec:
-  accessModes:
-    - ReadWriteMany
-  storageClassName: nfs
-  resources:
-    requests:
-      storage: 2Gi
----
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: nacos-pvc-1
-spec:
-  accessModes:
-    - ReadWriteMany
-  storageClassName: nfs
-  resources:
-    requests:
-      storage: 2Gi
----
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: nacos-pvc-2
-spec:
-  accessModes:
-    - ReadWriteMany
-  storageClassName: nfs
-  resources:
-    requests:
-      storage: 2Gi
-```
 
 ### 4. 部署 Nacos StatefulSet
 注意版本号要与SQL脚本的版本号一致
