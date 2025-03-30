@@ -168,6 +168,7 @@ spec:
     name: nacos-data-nacos-cluster-2
 ```
 ```yaml
+# nacos-pvc.yaml
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
