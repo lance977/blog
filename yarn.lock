@@ -790,10 +790,10 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-fluid@^1.9.8:
-  version "1.9.8"
-  resolved "https://repo.huaweicloud.com/repository/npm/hexo-theme-fluid/-/hexo-theme-fluid-1.9.8.tgz"
-  integrity sha512-+HUx8xrBA2WWgJYMhlCy5L69LLgAL8PjsLIyIbh81Ftc0J71V69K04Zqv270VjRSs38rx9djeQPrgidtMdnh3g==
+hexo-theme-fluid@^1.9.9:
+  version "1.9.9"
+  resolved "https://registry.yarnpkg.com/hexo-theme-fluid/-/hexo-theme-fluid-1.9.9.tgz#e8ee991465b00ac842d6ce5a0ea85b211f7248a5"
+  integrity sha512-Z1EgMiIOeVpaNYQsjUi1PWIA9li/7bkUK+WEL8ehV5uj7nU3VjkAPqSrJDCLV4fDdwFX8HBDM3CaNfl14VKx3g==
 
 hexo-theme-landscape@^1.0.0:
   version "1.1.0"
